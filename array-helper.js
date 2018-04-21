@@ -1,6 +1,6 @@
 /*=====================
 ES6 - forEach
-fungsi forEach lebih mudah pengguannya dibandingkan for loop biasa
+fungsi forEach lebih mudah penggunaannya dibandingkan for loop biasa
 ======================*/
 
 /* == DASAR ==*/
