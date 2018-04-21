@@ -27,3 +27,23 @@ var newProducts = products.filter(function(product) {
 });
 
 console.log(newProducts); //hasilnya jeruk & mangga
+
+
+
+/*==============
+CONTOH STUDI KASUS
+==============*/
+var post = {id: 4, title: 'Postingan baru'};
+var comments = [
+  { postId: 4, content: 'keren artikelnya' },
+  { postId: 3, content: 'mantap' },
+  { postId: 4, content: 'sangat bermanfaat' }
+];
+
+function commentsForPost(post, comments) {
+  return comments.filter(function(comment) {
+    return comment.postId === post.id;
+  });
+}
+
+console.log(commentsForPost(post, comments));
