@@ -17,6 +17,7 @@ console.log(filteredProducts); //hasilnya kangkung & buncis
 
 // Cara ES6
 products.filter(function(product) {
+  // bisa juga menggunakan comparison operator jika diperlukan
   return product.type === 'buah-buahan';
 });
 
